@@ -486,14 +486,35 @@ margin-right: 20px;
     margin: 0 auto;
     text-align: center;
   }
+  .deals-timer{
+    display: flex;
+  }
+  .best-deals{
+    max-width: 195px;
+  }
+  .best-deals h4{
+    color: #222222;
+    font-family: 'Raleway-Bold', sans-serif; 
+    font-size: 17px;
+    margin-top: 23px;
+  }
+  .best-deals p{
+    color: #999999;
+    font-family: 'Roboto-Regular', sans-serif; 
+    font-size: 12px;
+
+  }
+  .timer{
+    max-width: 215px;
+  }
   .timer__items {
     display: flex;
-    font-size: 15px;
-    background-color: #f6f6f6;
+    font-size: 17px;
+    background-color: #5399e7;
+    color: #fff;
     border: 1px solid #e5e5e5;
-    padding-left: 18px;
-    padding-right: 18px;
     margin-top: 23px;
+    padding-left: 15px;
   }
 
   .timer__item {
@@ -501,8 +522,9 @@ margin-right: 20px;
     min-width: 45px;
     padding-bottom: 15px;
     text-align: center;
-      }
-
+  }
+      
+  
   .timer__item::before {
     content: attr(data-title);
     display: block;
