@@ -257,7 +257,7 @@ margin-right: 20px;
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 502px;
+   
     padding-top: 60px;
     color: #fff; 
     font-family: 'Poppins-SemiBold', sans-serif; 
@@ -431,7 +431,7 @@ margin-right: 20px;
     width: 42px;
     padding: 0;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 25px;
     color: lightgrey;
     text-shadow: 1px 1px #bbb;
@@ -573,7 +573,7 @@ margin-right: 20px;
 }
 .item-list-electronic{
   background-color: #222222;
-  height: 464px;
+  height: 540px;
 }
 .item-list-electronic li{
   list-style-type: none;
@@ -593,6 +593,9 @@ margin-right: 20px;
   border: 1px solid #e8e8e8;
   padding-top: 9px;
   padding-bottom: 5px;
+}
+.item-product-col .item-variant img{
+  width: 100%;
 }
 .top-col{
   display: flex;
@@ -631,7 +634,9 @@ margin-right: 20px;
 .health{
   padding-top: 20px;
 }
-
+.item-product-health img{
+  width: 100%;
+}
 .health .item-icon-health{
 background-color: #292929;
 text-align: center;
@@ -646,7 +651,7 @@ padding-top: 10px;
 }
 .item-list-health{
 background-color: #222222;
-height: 464px;
+height: 540px ;
 }
 .item-list-health li{
 list-style-type: none;
@@ -711,7 +716,9 @@ font-size: 22px;
 .home{
   padding-top: 20px;
 }
-
+.item-product-home img{
+  width: 100%;
+}
 .home .item-icon-home{
 background-color: #292929;
 text-align: center;
@@ -726,7 +733,7 @@ padding-top: 10px;
 }
 .item-list-home{
 background-color: #222222;
-height: 464px;
+height: 555px;
 }
 .item-list-home li{
 list-style-type: none;
@@ -799,7 +806,9 @@ text-align: center;
 .food{
   padding-top: 20px;
 }
-
+.item-product-food img{
+  width: 100%;
+}
 .food .item-icon-food{
 background-color: #292929;
 text-align: center;
@@ -814,7 +823,7 @@ padding-top: 10px;
 }
 .item-list-food{
 background-color: #222222;
-height: 464px;
+height: 554px;
 }
 .item-list-food li{
 list-style-type: none;
@@ -946,10 +955,6 @@ text-align: center;
   margin-bottom: 57px;
 
 }
-
-
-
-
 
 .brand-top{
   display: flex;
@@ -1146,6 +1151,30 @@ font-size: 15px;
 
 /*max-width: 480px*/
 @media only screen and (max-width: 480px) {
+  .top-navigation .navigation-block .right-top-navigation {
+    justify-content: center;
+  }
+  .top-navigation .navigation-block .left-top-navigation {
+    justify-content: center;
+  }
+  .header-navigation .supermarket{
+    display: flex;
+  }
+  .header-navigation .supermarket h4{
+    font-size: 20px;
+  }
+ .quick-link{
+  display: none;
+ }
+ .sale-block .offer-day{
+  background-size: cover;
+  padding-bottom: 25px;
+  margin-bottom: 8px;
+ }
+.product-block h4{
+    text-align: center;
+  }
+ 
    
 }
 
@@ -1155,7 +1184,15 @@ font-size: 15px;
   .header-navigation .supermarket h4 {
     display: none;
   }
-
+  .quick-link{
+    display: none;
+   }
+   .sale-block .offer-day{
+    margin-bottom: 0px;
+   }
+   .hot-deals img{
+    width: 100%;
+   }
   .center-block a:not(:first-child) {
     display: none;
   }
