@@ -220,12 +220,28 @@ margin-right: 20px;
     display: flex;
     color: #555555;
     font-family: 'Roboto-Regular', sans-serif; 
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
     padding-top: 18px;
   }
+  .quick-link-item ul{
+    display: flex;
+  }
+  .quick-link-item li{
+    list-style-type: none;
+  }
+  .quick-link-item li a{
+    text-decoration: none;
+    padding-left: 14px;
+    padding-right: 9px;
+    color: #555555;
+    font-family: 'Roboto-Regular', sans-serif; 
+    font-size: 13px;
+    text-align: center;
+  }
   .quick-link-item i{
     color: #408de4;
+    padding-right: 10px;
   }
   .quick-link-item span{
     color: #222222;
