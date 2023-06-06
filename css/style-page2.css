@@ -1174,7 +1174,9 @@ font-size: 15px;
 .product-block h4{
     text-align: center;
   }
- 
+  .left-text-food button {
+    margin-bottom: 10px;
+  }
    
 }
 
@@ -1188,10 +1190,17 @@ font-size: 15px;
     display: none;
    }
    .sale-block .offer-day{
+    background-size: cover;
+   
+   }
+   .sale-block .offer-day{
     margin-bottom: 0px;
    }
    .hot-deals img{
     width: 100%;
+   }
+   .item-list-electronic{
+    height: 377px;
    }
   .center-block a:not(:first-child) {
     display: none;
@@ -1214,7 +1223,29 @@ font-size: 15px;
     display: block;
     text-align: left;
   }
-
+  .item-list-health {
+    height: 390px;
+   }
+   .item-list-home {
+    height: 390px;
+   }
+   .item-list-food {
+    height: 402px;
+   }
+   .brand-img img{
+    width: 100%;
+   }
+   .social-icon{
+    font-size: 13px;
+   }
+   .social-icon i{
+    padding: 7px 9px;
+   }
+   .logo-img h3{
+    font-size: 20px;
+   }
+  
+ 
 }
 /*(min-width: 768px) and (max-width: 992px)*/
 @media only screen and (min-width: 768px) and (max-width: 992px){
