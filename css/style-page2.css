@@ -555,6 +555,9 @@ margin-right: 20px;
     position: absolute;
     
   }
+  .hot-deals img{
+    width: 100%;
+  }
   .electronic{
     padding-top: 20px;
   }
@@ -969,6 +972,9 @@ text-align: center;
 .brand .brand-img{
   border: 1px solid #e8e8e8;
 }
+.brand-img img{
+  width: 100%;
+}
 .features{
   text-align: center;
   align-items: self-end;
@@ -1196,9 +1202,7 @@ font-size: 15px;
    .sale-block .offer-day{
     margin-bottom: 0px;
    }
-   .hot-deals img{
-    width: 100%;
-   }
+  
    .item-list-electronic{
     height: 377px;
    }
@@ -1249,13 +1253,45 @@ font-size: 15px;
 }
 /*(min-width: 768px) and (max-width: 992px)*/
 @media only screen and (min-width: 768px) and (max-width: 992px){
-  
+  .header-navigation{
+    height: 110px;
+  }
+  .quick-link-item {
+    display: none;
+  }
+  .sale-block .offer-day {
+    background-size: cover;
+}
+.item-list-electronic {
+  height: 499px;
+}
+.item-list-health {
+  height: 500px;
+}
+.item-list-home {
+  height: 500px;
+}
+.item-list-food {
+  height: 511px;
+}
+
 }
 
 /*(min-width: 992px) and (max-width: 1200px) */
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-   
+  .item-list-electronic {
+    height: 552px;
+  }
+  .item-list-health {
+    height: 552px;
+  }
+  .item-list-home {
+    height: 567px;
+  }
+  .item-list-food {
+    height: 567px;
+  }
 }
 
 /*@media only screen and (min-width: 1200px)*/
